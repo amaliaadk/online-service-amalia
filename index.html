@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+        /* custom responsive */
+        .hero-section h1,
+        .hero-section p,
+        .hero-section button {
+            text-align: left;
+        }
+
+        .btn {
+            background-color: #059669;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+
+            .hero-section h1,
+            .hero-section p,
+            .hero-section button {
+                text-align: center;
+            }
+
+            .navbar-collapse {
+                text-align: center;
+            }
+        }
+
+        .footer-menu {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.svg" class="logo" alt="logo neuverse">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class=" navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index2.html"><b>Prices</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index4.html"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero-section">
+        <div class="container py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1>
+                            Landing page for your online service
+                        </h1>
+                        <p>Get the right recommendations, just for you. Life is easier with Nuverse.</p>
+                        <button class="btn">
+                            Learn More &rarr;
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+
+                        <img class="w-100" src="hero-illustration.png" alt="illustration">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- logos section -->
+    <div class="container text-center py-5">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-2 mb-3">
+                <img src="varta.svg" class="img-fluid" alt="varta">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <img src="lenovo.svg" alt="lenovo" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <img src="bbc.svg" alt="bbc" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <img src="weller.svg" alt="weller" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <img src="british_airways.svg" alt="british" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <img src="lufthansa.svg" alt="lufthansa" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="py-4">
+        <div class="container">
+            <hr>
+            <div class=" row align-items-center">
+                <div class="col-md-4">
+                    <img src=" logo.svg" class="logo" alt="logo neuverse">
+                </div>
+
+                <!-- menus bawah -->
+                <div class="col-md-4 text-center">
+                    <ul class="list-unstyled footer-menu">
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="index2.html"><b>Prices</b></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="index3.html"><b>About</b></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="index4.html"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- social media -->
+                <div class="col-md-4 text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#"><img src="tw.svg" alt="twitter"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><img src="fb.svg" alt="facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-center mt-3">
+                    <p>Copyright &copy; 2024 Amalia Dewi Kusumaningrum. All rights reserved.</p>
+                </div>
+    </footer>
+
+</body>
+
+</html>
